@@ -2,13 +2,17 @@
 
 This api was built to be a dictionary, it provides 4 ways to search words.
 
-**Main search:** provides a list of 100 words randomly selected (e.g., *http://localhost:3330/v1/api*).
+**Main search:** provides a list of 100 words randomly selected
+(e.g., *http://localhost:3330/v1/api*).
 
-**Word name search:** provides a list of at most 100 words matching to the word provided (e.g., *http://localhost:3330/v1/api/word?name=develop*).
+**Word name search:** provides a list of at most 100 words matching to the word provided
+(e.g., *http://localhost:3330/v1/api/word?name=develop*).
 
-**Edit/Single word view search:** return just 1 word based on route param id (e.g., *http://localhost:3330/v1/api/edit/5f62a50fa5c5872010d89ca9*).
+**Edit/Single word view search:** return just 1 word based on route param id
+(e.g., *http://localhost:3330/v1/api/edit/5f62a50fa5c5872010d89ca9*).
 
-**Type search:** provides a list of 100 words randomly selected based on type selection (e.g., *http://localhost:3330/v1/api/type?pos=v.*).
+**Type search:** provides a list of 100 words randomly selected based on type selection
+(e.g., *http://localhost:3330/v1/api/type?pos=v.*).
 
 ### Running in development mode
 
