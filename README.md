@@ -20,7 +20,6 @@ In the project directory, you can run:
 
 #### `yarn start`
 
-Runs the app in the development mode.
-Open http://localhost:3330/v1/api to view the returneddata in the browser.
+After runs the app in the development mode, open http://localhost:3330/v1/api to view the returned data in the browser or any other http client app.
 
 To run the project you'll need to install **MongoDB** locally or remotelly and update the connection string in *src/main/config/env.ts*. I really recommend create an archive with database config and import it inside *env.ts*.
