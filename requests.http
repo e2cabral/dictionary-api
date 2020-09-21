@@ -1,0 +1,15 @@
+### First Request
+GET http://localhost:3330/v1/api HTTP/1.1
+Content-Type: application/json
+
+### Second Request
+GET http://localhost:3330/v1/api/word?name=develop HTTP/1.1
+Content-Type: application/json
+
+### Thrid Request
+GET http://localhost:3330/v1/api/edit/5f62a50fa5c5872010d89ca9 HTTP/1.1
+Content-Type: application/json
+
+### Fouth Request
+GET http://localhost:3330/v1/api/type?pos=v. HTTP/1.1
+Content-Type: application/json
