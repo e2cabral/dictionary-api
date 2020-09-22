@@ -1,7 +1,7 @@
 import word from './../../../main/docs/word-schema';
-import { Word } from './../../../domain/model/word';
+import { Word } from '../../../domain/model/word';
 import { Request, Response } from 'express';
-import { ILoadWordById } from './../../../domain/usecases/word/i-load-word-by-id';
+import { ILoadWordById } from '../../../domain/usecases/word/i-load-word-by-id';
 
 class LoadWordById implements ILoadWordById {
     constructor() {}
