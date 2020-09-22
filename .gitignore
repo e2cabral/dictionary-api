@@ -1,4 +1,8 @@
 node_modules
 .vscode
+.idea
+.idea/codeStyles
+.run
+.run/httpRequests
 
 db-config.ts
