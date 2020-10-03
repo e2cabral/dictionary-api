@@ -6,8 +6,8 @@ import searchWords from '../../presentation/controllers/word/search-words';
 
 export default (router: Router) => {
     router
-        .get('/', loadWords.load)
-        .get('/edit/:id', loadWordById.load)
-        .get('/type', loadWordsByPos.load)
-        .get('/word', searchWords.search);
+        .get('/', loadWords.load.bind(loadWords))
+        .get('/edit/:id', loadWordById.load.bind(loadWordById))
+        .get('/type', loadWordsByPos.load.bind(loadWordsByPos))
+        .get('/word', searchWords.search.bind(searchWords));
 }
